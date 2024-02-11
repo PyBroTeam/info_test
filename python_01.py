@@ -76,8 +76,6 @@ cloud_2()
 cloud_3()
 cloud_4()
 
-#draw a roof
-
 #draw windows
 def window_1():
     color = (81, 60, 60) #dark red
@@ -130,14 +128,6 @@ window_2()
 window_3()
 window_4()
 screen.blit(house_surface, (house_x, house_y))
-
-
-
-
-
-
-
-
 
 
 pygame.display.update()
