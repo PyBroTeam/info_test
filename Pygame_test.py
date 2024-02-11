@@ -11,7 +11,7 @@ pygame.display.get_surface().fill((255, 255, 255))  # Surface color WHITE
 pygame.display.set_caption("Best game")  # Set screen captcha
 
 # Load a background
-background = pygame.image.load("D:\Python\pygame_background\pic01.jpg")
+background = pygame.image.load("pic01.jpg")
 background.convert()
 
 scr.blit(background, (0, 0))
@@ -23,7 +23,7 @@ def draw_rect():
         # Renewing background
         scr.blit(background, (0, 0))
 
-        # Rectangle
+        # Rectangles
         pygame.draw.rect(scr, (255, 0, 0), (i, i, 60, 60), 2, 10)
         pygame.draw.rect(scr, (255, 0, 0), (300 - i, 300 - i, 60, 60), 2, 10)
         pygame.draw.rect(scr, (255, 0, 0), (300 + i, 300 - i, 60, 60), 2, 10)
@@ -50,7 +50,7 @@ while run:
     # Update screen
     pygame.display.update()
 
-    # Limits FPS to 30
+    # Limit FPS to 30
     pygame.time.Clock().tick(30)
 
 pygame.quit()
