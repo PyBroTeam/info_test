@@ -1,5 +1,5 @@
 # The test program based on Pygame
-# Importing Pygame and sys moduls
+# Importing Pygame modul
 import pygame
 
 # Initialize Pygame
